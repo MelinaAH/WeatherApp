@@ -1,0 +1,48 @@
+.vignette-box {
+    -fx-background-color:
+            radial-gradient(focus-angle 0deg, focus-distance 0%, center 50% 50%, radius 90%, reflect, rgba(255,255,255,0.9), rgba(153,153,255,0.8));
+    -fx-background-radius: 10;
+}
+.unknown-label {
+    -fx-font-size: 18;
+    -fx-text-fill: red;
+    -fx-font-style: italic;
+}
+.forecast-label {
+    -fx-font-size: 18;
+    -fx-font-weight: bold;
+}
+.temp-label {
+    -fx-font-size: 64;
+    -fx-font-weight: bold;
+}
+.detail-label {
+    -fx-font-size: 20;
+    -fx-font-weight: bold;
+}
+.description-label {
+    -fx-font-size: 20;
+    -fx-font-style: italic;
+}
+.location-label {
+    -fx-font-size: 24;
+    -fx-font-weight: bold;
+}
+.cold {
+    -fx-text-fill: #4169e1;
+}
+.warm {
+    -fx-text-fill: #dc143c;
+}
+#headerBox {
+    -fx-effect: dropshadow(gaussian, #666666, 20.0, 0.0, 0, 0);
+}
+#forecastBox {
+    -fx-effect: dropshadow(gaussian, #666666, 10.0, 0.0, 0, 0);
+}
+#tempLabel {
+    -fx-effect: dropshadow(gaussian, #666666, 3.0, 0, 1, 1);
+}
+#iconShadow {
+    -fx-effect: dropshadow(gaussian, #666666, 10.0, 0, 5, 5);
+}

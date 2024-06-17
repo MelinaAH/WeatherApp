@@ -33,7 +33,7 @@ public class DataFetcher implements iAPI {
     private final static String URL_ICON = "https://openweathermap.org/img/wn/";
     private final static String URL_DAILY_FORECAST = "https://pro.openweathermap.org/data/2.5/forecast/daily?lat=";
     private final static String URL_HOURLY_FORECAST = "https://pro.openweathermap.org/data/2.5/forecast/hourly?lat=";
-    private final static String API_KEY = "4e6c29b273b04ea62bc7278f8ba72853";
+    private final static String API_KEY = "**********";
 
     /**
      * Returns coordinates for a location.
